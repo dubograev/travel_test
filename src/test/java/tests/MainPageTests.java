@@ -40,9 +40,4 @@ public class MainPageTests extends TestBase{
         $(".sightseeingtours_bt-btn").shouldNotBe(visible);
         $(".sightseeingtours").$$(".sightseeingtours__slide").shouldHave(size(12));
     }
-
-    @Attachment(value = "Screenshot", type = "image/png")
-    public byte[] annotatedAttachment() {
-        return Selenide.screenshot(OutputType.BYTES);
-    }
 }

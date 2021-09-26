@@ -15,11 +15,6 @@ public class SearchTests extends TestBase{
 
     SearchForm searchForm = new SearchForm();
 
-    @BeforeEach
-    void setUp() {
-        Configuration.browserSize = "1920x1080";
-    }
-
     @Test
     void searchForHotelsTest() {
 
