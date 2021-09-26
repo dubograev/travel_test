@@ -26,6 +26,8 @@ dependencies {
     testImplementation "com.codeborne:selenide:5.22.3"
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testImplementation 'io.qameta.allure:allure-selenide:2.14.0'
+    testImplementation 'io.rest-assured:json-path:4.4.0'
+    testImplementation 'io.rest-assured:rest-assured:4.4.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
 }
 
