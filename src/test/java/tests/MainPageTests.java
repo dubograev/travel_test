@@ -18,12 +18,6 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class MainPageTests extends TestBase{
 
-    @AfterEach
-    void tearDown() {
-        annotatedAttachment();
-        Selenide.closeWindow();
-    }
-
     @Test
     @Feature("Main Page")
     @Owner("Andrey")
